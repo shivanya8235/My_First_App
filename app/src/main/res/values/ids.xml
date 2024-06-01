@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_register" type="id">Register</item>
+    <item name="signup" type="id" />
+    <item name="progressBar" type="id">progressBar</item>
+    <item name="loginNow" type="id">login</item>
+    <item name="RegisterNow" type="id">Register</item>
+    <item name="user_details" type="id" />
+    <item name="logout" type="id" />
+
+</resources>

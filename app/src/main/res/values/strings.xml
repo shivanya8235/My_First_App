@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NIT KKR</string>
+    <string name="login">Login/Register To Continue</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="signup">Signup</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">click to Register</string>
+    <string name="logout">logout</string>
+    <string name="register">Register</string>
+</resources>

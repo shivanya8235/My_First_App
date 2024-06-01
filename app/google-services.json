@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722431876202",
+    "project_id": "login-signup-b09ab",
+    "storage_bucket": "login-signup-b09ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722431876202:android:2d21798e17cba143bdfe13",
+        "android_client_info": {
+          "package_name": "com.example.nitkkr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfo0unNGgElkv8P_Ay6WI7Est6ZmO0Xuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
