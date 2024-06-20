@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="About App">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/optProblemorCorrection"
+                    android:title="Problem or Correction"/>
+                <item
+                    android:id="@+id/optrate"
+                    android:title="Rate the App"/>
+                <item
+                    android:id="@+id/optDevelper"
+                    android:title="About Developer"/>
+                <item
+                    android:id="@+id/PrivacyPolicy"
+                    android:title="Privacy Policy"/>
+                <item
+                    android:id="@+id/optDisclaimer"
+                    android:title="Disclaimer"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/opttelegram"
+                    android:title="Join Telegram Group"/>
+                <item
+                    android:id="@+id/optinstagram"
+                    android:title="Follow Instagram Page"/>
+                <item
+                    android:id="@+id/optmoreapps"
+                    android:title="More Apps"/>
+                <item
+                    android:id="@+id/optshare"
+                    android:title="Share"
+                    android:icon="@drawable/baseline_share_24"/>
+            </group>
+        </menu>
+    </item>
+</menu>
