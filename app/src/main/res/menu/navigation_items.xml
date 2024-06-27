@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="About App">
+    <item android:title="Study">
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/optProblemorCorrection"
-                    android:title="Problem or Correction"/>
+                    android:id="@+id/quicklearning"
+                    android:title="Quick Learning"
+                    android:icon="@drawable/youtube_168_svgrepo_com"/>
                 <item
-                    android:id="@+id/optrate"
-                    android:title="Rate the App"/>
+                    android:id="@+id/blog"
+                    android:title="Blogs"
+                    android:icon="@drawable/blog_svgrepo_com"/>
                 <item
-                    android:id="@+id/optDevelper"
-                    android:title="About Developer"/>
+                    android:id="@+id/notes"
+                    android:title="Notes"
+                    android:icon="@drawable/book_solid"/>
                 <item
-                    android:id="@+id/PrivacyPolicy"
-                    android:title="Privacy Policy"/>
+                    android:id="@+id/syllabus"
+                    android:title="Syllabus"
+                    android:icon="@drawable/note_sticky_regular"/>
                 <item
-                    android:id="@+id/optDisclaimer"
-                    android:title="Disclaimer"/>
+                    android:id="@+id/pyqs"
+                    android:title="Past Years Papers"
+                    android:icon="@drawable/book_open_solid"/>
             </group>
         </menu>
     </item>
@@ -25,19 +30,22 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/opttelegram"
-                    android:title="Join Telegram Group"/>
+                    android:id="@+id/contactus"
+                    android:title="Contact Us"
+                    android:icon="@drawable/baseline_contact_phone_24"/>
                 <item
-                    android:id="@+id/optinstagram"
-                    android:title="Follow Instagram Page"/>
-                <item
-                    android:id="@+id/optmoreapps"
-                    android:title="More Apps"/>
-                <item
-                    android:id="@+id/optshare"
+                    android:id="@+id/share"
                     android:title="Share"
                     android:icon="@drawable/baseline_share_24"/>
+                <item
+                    android:id="@+id/aboutus"
+                    android:title="About Us"
+                    android:icon="@drawable/baseline_info_24"/>
             </group>
         </menu>
     </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"/>
 </menu>

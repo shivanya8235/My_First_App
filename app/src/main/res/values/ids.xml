@@ -2,4 +2,14 @@
 <resources>
 
 
+    <item name="quicklearning" type="id" />
+    <item name="blog" type="id" />
+    <item name="notes" type="id" />
+    <item name="syllabus" type="id" />
+    <item name="pyqs" type="id" />
+    <item name="contactus" type="id" />
+    <item name="aboutus" type="id" />
+    <item name="share" type="id" />
+    <item name="logout" type="id" />
+    <item name="home" type="id" />
 </resources>
