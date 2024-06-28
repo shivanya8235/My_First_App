@@ -18,7 +18,7 @@
             android:name=".header_layout"
             android:exported="false" />
         <activity
-            android:name=".Drawer"
+            android:name=".DrawerActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class Drawer extends AppCompatActivity {
+public class DrawerActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -44,26 +44,26 @@ public class Drawer extends AppCompatActivity {
                 int itemId = item.getItemId();
 
                     if(itemId ==  R.id.quicklearning)
-                        Toast.makeText(Drawer.this, "Quick Learning Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Quick Learning Selected", Toast.LENGTH_SHORT).show();
 
                     else if(itemId == R.id.blog)
-                        Toast.makeText(Drawer.this, "Blog Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Blog Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId == R.id.notes)
-                        Toast.makeText(Drawer.this, "Notes Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Notes Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId ==  R.id.syllabus)
-                        Toast.makeText(Drawer.this, "Syllabus Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Syllabus Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId == R.id.pyqs)
-                        Toast.makeText(Drawer.this, "PYQs Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "PYQs Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId == R.id.contactus)
-                        Toast.makeText(Drawer.this, "Contact Us Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Contact Us Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId == R.id.share)
-                        Toast.makeText(Drawer.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Share Selected", Toast.LENGTH_SHORT).show();
                     else if(itemId == R.id.aboutus)
-                        Toast.makeText(Drawer.this, "About Us Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "About Us Selected", Toast.LENGTH_SHORT).show();
                     else if (itemId == R.id.logout)
-                        Toast.makeText(Drawer.this, "Logout Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Logout Selected", Toast.LENGTH_SHORT).show();
                     else
-                        Toast.makeText(Drawer.this, "Unknown Item Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DrawerActivity.this, "Unknown Item Selected", Toast.LENGTH_SHORT).show();
 
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
