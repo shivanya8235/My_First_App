@@ -41,38 +41,30 @@ public class Drawer extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.quicklearning:
+                int itemId = item.getItemId();
+
+                    if(itemId ==  R.id.quicklearning)
                         Toast.makeText(Drawer.this, "Quick Learning Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.blog:
+
+                    else if(itemId == R.id.blog)
                         Toast.makeText(Drawer.this, "Blog Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.notes:
+                    else if(itemId == R.id.notes)
                         Toast.makeText(Drawer.this, "Notes Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.syllabus:
+                    else if(itemId ==  R.id.syllabus)
                         Toast.makeText(Drawer.this, "Syllabus Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.pyqs:
+                    else if(itemId == R.id.pyqs)
                         Toast.makeText(Drawer.this, "PYQs Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.contactus:
+                    else if(itemId == R.id.contactus)
                         Toast.makeText(Drawer.this, "Contact Us Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.share:
+                    else if(itemId == R.id.share)
                         Toast.makeText(Drawer.this, "Share Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.aboutus:
+                    else if(itemId == R.id.aboutus)
                         Toast.makeText(Drawer.this, "About Us Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.logout:
+                    else if (itemId == R.id.logout)
                         Toast.makeText(Drawer.this, "Logout Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                    default:
+                    else
                         Toast.makeText(Drawer.this, "Unknown Item Selected", Toast.LENGTH_SHORT).show();
-                        break;
-                }
+
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
             }
